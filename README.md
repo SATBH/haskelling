@@ -11,7 +11,7 @@ through reader macros.
 ```lisp
  (assert (equal (mapcar #!(+ 1) '(1 2)) '(2 3)))
 ```
-- Haskell's "do notation" and support for Monads
+- Macro implementation of Haskell's "do notation".
 ```lisp
   (with-monad 'list-monad
     (-do- x <- '(1 2)
