@@ -9,7 +9,7 @@ through reader macros.
 ```
 - Partial application reader macro
 ```lisp
- (assert (equal (mapcar !(+ 1) '(1 2)) '(2 3)))
+ (assert (equal (mapcar #!(+ 1) '(1 2)) '(2 3)))
 ```
 - Haskell's "do notation" and support for Monads
 ```lisp
