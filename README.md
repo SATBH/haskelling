@@ -1,5 +1,5 @@
 # Haskelling
-Opinionated, Haskell-inspired,  Common Lisp library for writing functional Code.
+Small, Opinionated, Haskell-inspired,  Common Lisp library for writing functional Code.
 
 ## Goals
 - Provide a more succint way of declaring anonymous functions
