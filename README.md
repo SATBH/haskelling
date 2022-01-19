@@ -5,7 +5,8 @@ Small, Opinionated, Haskell-inspired,  Common Lisp library for writing functiona
 - Provide a more succint way of declaring anonymous functions
 through reader macros.
 ```lisp
- (assert (equal '$(x -> x) '(lambda (x) x)))
+$(x -> (+ 5 x))
+;; (lambda (x) (progn (+ 5 x)))
 ```
 - Partial application reader macro
 ```lisp
